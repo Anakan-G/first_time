@@ -1,0 +1,5 @@
+sizePizza = input("What size pizza would you like?")
+crust = input("What type of crust would you like?")
+cheese = input("What type of cheese would you like?")
+topping = input("What topping would you like?")
+print("You ordered a " + sizePizza + " pizza with " + crust + " crust, " + cheese + " cheese, and " + topping + "!")

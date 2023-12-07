@@ -1,0 +1,13 @@
+import turtle
+sideAmount = int(input("How many sides should the shape have?"))
+shapeColor = input("What color should it be?")
+sideLength = int(input("How long should the sides be? (In Pixels)"))
+exteriorAngle = 360/sideAmount
+print("My " + str(sideAmount) + " sided shape!")
+t = turtle.Turtle
+turtle.pencolor(shapeColor)
+for i in range(int(sideAmount)):
+    turtle.forward(sideLength)
+    turtle.left(exteriorAngle)
+turtle.hideturtle()
+turtle.exitonclick()
